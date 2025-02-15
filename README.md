@@ -1,36 +1,55 @@
 # Projeto Análise de Dados Agencia Sterling e Draper
 
 ## Descrição do Projeto
-Esse projeto consiste em uma análise de anúncios de vídeo de tendências no Youtube oara determinar qual conteúdo merece atenção de marketing. A agência de marketing se chama Sterling e Draper. Cada vídeo tem uma categoria específica (entretenumento, música, notícias e política etc.), região e data de tendência. Um vídeo pode estar na seção de tendências por vários dias seguidos. Toda semana, os funcionários precisam responder as mesmas perguntas:
-- Quais categorias de vídeo foram tendências na semana passada?
-- Como foram distribuídos entre as várias regiões?
-- Quais categorias foram espwcialmente populares nos Estados Unidos?
-Depois de algumas semanas, foi percebido a necessidade de automatizar o processo e para isso foi preciso construir um dashboard.
+Esse projeto envolve a análise de anúncios de vídeo em tendências no YouTube com o objetivo de determinar quais tipos de conteúdo merecem mais atenção para campanhas de marketing. A agência de marketing Sterling e Draper foi contratada para realizar essa análise semanal. A cada semana, a equipe da agência deve responder a perguntas sobre os vídeos em tendência, como:
+- Quais categorias de vídeos foram tendência na semana passada?
+- Como esses vídeos estavam distribuídos entre as diferentes regiões?
+- Quais categorias de vídeos se destacaram especialmente nos Estados Unidos?
+Após algum tempo, a equipe identificou a necessidade de automatizar esse processo para facilitar as respostas frequentes e aumentar a eficiência. Para isso, foi necessário construir um dashboard que permitisse acompanhar facilmente as métricas de vídeos em tendência, categorizados de acordo com a região, data e tipo de conteúdo.
+O objetivo é simplificar o processo de obtenção de insights e melhorar a tomada de decisões de marketing, oferecendo uma visualização dinâmica e interativa das tendências de vídeos no YouTube.
 
 ## As tarefas são:
-- Quais são os dados que realmente são coletados
-- Projetar tabelas agregadas e a estrutura do pipeline
-- Contruir o dashboard
-- Discutir o conteúdo do dashboard, seu layout e os dados que precisam ser exibidos
-- Utilizar o Tableau para a construção do dashboard
+- Quais são os dados que realmente são coletados:
+  - Categoria do vídeo: Cada vídeo tem uma categoria específica, como entretenimento, música, notícias, política, entre outros.
+  - Região: A localização geográfica dos vídeos que estão em tendência, com foco particular nas tendências dos Estados Unidos.
+  - Data de tendência: A data em que o vídeo foi classificado como tendência, podendo se estender por vários dias consecutivos.
+  - Engajamento: Número de visualizações, curtidas, comentários e compartilhamentos, para entender a popularidade de cada vídeo.
+- Projetar tabelas agregadas e a estrutura do pipeline:
+  - Tabelas agregadas: É necessário criar tabelas que agreguem os dados por semana, categoria de vídeo, região e engajamento. Isso permitirá analisar as tendências de forma mais clara e facilitará a automação do processo.
+  - Estrutura do pipeline: O pipeline será responsável por extrair, transformar e carregar (ETL) os dados de maneira eficiente. Ele deve incluir:
+    - Extração: Coleta dos dados do YouTube sobre vídeos e suas métricas.
+    - Transformação: Limpeza dos dados, agregação por categorias e regiões, e cálculo de métricas importantes, como média de visualizações e engajamento.
+    - Carregamento: Envio dos dados processados para uma ferramenta de visualização, como o Tableau, para análise e apresentação.
+- Construir o dashboard:
+  - O dashboard será projetado para fornecer uma visão clara e interativa dos dados de vídeos em tendência no YouTube. Ele deve ser acessível a todos os membros da equipe da Sterling e Draper e deve ser fácil de interpretar e usar para tomada de decisões de marketing.
+- Discutir o conteúdo do dashboard, seu layout e os dados que precisam ser exibidos:
+  - Conteúdo:
+    - Gráfico de Tendências por Categoria: Mostrar quais categorias de vídeos foram tendência por semana, com uma visualização de barras ou linha do tempo.
+    - Distribuição Regional: Exibir a distribuição dos vídeos em tendência por região, com gráficos de pizza ou mapa geográfico.
+    - Tendências nos Estados Unidos: Focar especificamente nos vídeos em tendência nos EUA, com ênfase em categorias populares.
+    - Engajamento: Métricas sobre visualizações, curtidas, comentários e compartilhamentos, podendo ser exibidas como gráficos de barras ou de linha.
+  - Layout: O layout deve ser limpo e organizado, com filtros para seleção de datas e regiões, e permitir a navegação rápida entre diferentes visualizações.
+- Utilizar o Tableau para a construção do dashboard:
+  - O Tableau será usado para criar visualizações interativas e dinâmicas dos dados coletados. Com ele, será possível construir gráficos de fácil compreensão e ajustar rapidamente os dados exibidos conforme necessário.
+  - O Tableau permite importar dados de diferentes fontes (como bancos de dados ou planilhas), agregar informações de maneira eficiente e apresentar os resultados de forma visualmente atrativa.
 
 ## Ferramentas e Bibliotecas utulizadas
 - Tableau: construção de dashboard
 
 ## Resultados
-- Objetivo dos negócios: analisar o histórico de vídeos de tendências no Youtube
-- Com que frequência o dashboard será usado: pelo menos uma vez por dia
-- Usuário do dashboard de destino: gerentes de planejamento de anúncios em vídeo
-- Conteúdo de dados do dashboard:
-  - Vídeos de tendências do passado, divididos por dia e categoria
-  - Vídeos de tendências, divididos por países
-  - Uma tabela de correspondência entre categorias e países
-- Parâmetros segundo os quais os dados devem ser agrupados:
-  - Data e hora da tendência
-  - Categoria de vídeo
-  - País
-- Todos os gráficos são igualmente importantes
-- Intervalo de atualização de dados: uma vez a cada 24 horas. à meia-noite UTC
+- Objetivo do Dashboard: Analisar o histórico de vídeos de tendências no YouTube, fornecendo uma visão detalhada sobre categorias, distribuição geográfica e tendências ao longo do tempo.
+- Frequência de Uso: O dashboard será utilizado pelo menos uma vez por dia, permitindo atualizações diárias com dados de vídeos de tendências.
+- Usuário Destino: Gerentes de planejamento de anúncios em vídeo serão os principais usuários do dashboard, utilizando-o para tomar decisões sobre campanhas de marketing e estratégias de conteúdo.
+- Conteúdo de Dados do Dashboard:
+  - Histórico de Vídeos de Tendência: Exibição de vídeos de tendência por dia e categoria.
+  - Distribuição Geográfica: Análise de vídeos de tendências divididos por países.
+  - Tabela de Correspondência: Relação entre categorias de vídeos e países.
+- Parâmetros de Agrupamento de Dados:
+  - Data e Hora: Tendências organizadas por data e hora.
+  - Categoria de Vídeo: Agrupamento por tipo de vídeo.
+  - País: Segmentação geográfica para entender as tendências em diferentes países.
+- Importância dos Gráficos: Todos os gráficos têm igual relevância para fornecer uma visão clara e completa dos dados.
+- Atualização de Dados: O dashboard será atualizado uma vez por dia, com dados sendo atualizados à meia-noite UTC, garantindo que as tendências mais recentes estejam sempre disponíveis.
 
 ## Dicionário de dados
 - 'record_id': chave primária
@@ -93,12 +112,12 @@ Depois de algumas semanas, foi percebido a necessidade de automatizar o processo
 <img src="https://github.com/user-attachments/assets/5da379c7-4332-4713-a954-f3d3dbd9f786" alt="Projeto 12" width="200"/>
 
 ## Aprendizados
-- Tableau
-- Construção de dashboard
-- Construção e análise de gráficos
+- Tableau: Ferramenta utilizada para construção de dashboards interativos e visualizações de dados, permitindo a análise eficiente e intuitiva de grandes volumes de dados.
+- Construção de Dashboard: Processo de criar um painel de controle interativo que consolida e organiza os dados de forma visual e acessível, facilitando a tomada de decisões.
+- Construção e Análise de Gráficos: Criação de gráficos e visualizações para representar dados de maneira clara e compreensível, além de realizar a análise desses gráficos para extrair insights e tendências.
 
 ## Contexto real
-- Empresa de marketing que desejam entender tendências do mercado, não necessariamente vídeos
-- Novas empresas que desejam utulizar diferentes ferramentas para entender as mesmas situações
+- Empresas de marketing que buscam compreender as tendências de mercado, não se limitando apenas a vídeos, mas expandindo sua análise para diversos tipos de conteúdo e comportamentos do consumidor.
+- Novas empresas que desejam adotar e explorar diferentes ferramentas analíticas para obter insights mais profundos sobre o mercado, comportamento dos usuários e estratégias de marketing, visando otimizar suas operações e campanhas.
 
 
