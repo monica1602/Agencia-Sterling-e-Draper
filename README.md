@@ -1,11 +1,13 @@
-# Projeto Análise de Dados Agencia Sterling e Draper
+# Projeto Análise de Dados - Agencia Sterling e Draper
 
 ## Descrição do Projeto
 Esse projeto envolve a análise de anúncios de vídeo em tendências no YouTube com o objetivo de determinar quais tipos de conteúdo merecem mais atenção para campanhas de marketing. A agência de marketing Sterling e Draper foi contratada para realizar essa análise semanal. A cada semana, a equipe da agência deve responder a perguntas sobre os vídeos em tendência, como:
 - Quais categorias de vídeos foram tendência na semana passada?
 - Como esses vídeos estavam distribuídos entre as diferentes regiões?
 - Quais categorias de vídeos se destacaram especialmente nos Estados Unidos?
+
 Após algum tempo, a equipe identificou a necessidade de automatizar esse processo para facilitar as respostas frequentes e aumentar a eficiência. Para isso, foi necessário construir um dashboard que permitisse acompanhar facilmente as métricas de vídeos em tendência, categorizados de acordo com a região, data e tipo de conteúdo.
+
 O objetivo é simplificar o processo de obtenção de insights e melhorar a tomada de decisões de marketing, oferecendo uma visualização dinâmica e interativa das tendências de vídeos no YouTube.
 
 ## As tarefas são:
@@ -60,61 +62,61 @@ O objetivo é simplificar o processo de obtenção de insights e melhorar a toma
 
 ## Imagens
 
-### Categoria vs videos count
-<img src="https://github.com/user-attachments/assets/163cdf15-e501-4df5-8b3f-4a41ef779454" alt="Projeto 12" width="200"/>
+### Gráfico - Categoria vs videos count
+<img src="https://github.com/user-attachments/assets/163cdf15-e501-4df5-8b3f-4a41ef779454" alt="Projeto 12" width="800"/>
 
-### Região vs videos count
-<img src="https://github.com/user-attachments/assets/96f6d247-a19f-47d9-9952-1ecdd89df489" alt="Projeto 12" width="200"/>
+### Gráfico - Região vs videos count
+<img src="https://github.com/user-attachments/assets/96f6d247-a19f-47d9-9952-1ecdd89df489" alt="Projeto 12" width="800"/>
 
-### País vs categoria
-<img src="https://github.com/user-attachments/assets/2e299bf1-55ac-49a1-b873-281fe3c96889" alt="Projeto 12" width="200"/>
+### Gráfico - País vs categoria
+<img src="https://github.com/user-attachments/assets/2e299bf1-55ac-49a1-b873-281fe3c96889" alt="Projeto 12" width="800"/>
 
-### Região vs data
-<img src="https://github.com/user-attachments/assets/ba906528-d1d8-4568-8418-27b1b70260a8" alt="Projeto 12" width="200"/>
+### Gráfico - Região vs data
+<img src="https://github.com/user-attachments/assets/ba906528-d1d8-4568-8418-27b1b70260a8" alt="Projeto 12" width="800"/>
 
-### Categoria vs data
-<img src="https://github.com/user-attachments/assets/9a401a01-172f-4716-8d42-623ff9258d02" alt="Projeto 12" width="200"/>
+### Gráfico - Categoria vs data
+<img src="https://github.com/user-attachments/assets/9a401a01-172f-4716-8d42-623ff9258d02" alt="Projeto 12" width="800"/>
 
-### Categoria vs países
-<img src="https://github.com/user-attachments/assets/af3b5a12-2722-480c-8f99-a641e9f0f54f" alt="Projeto 12" width="200"/>
+### Tabela - Categoria vs países
+<img src="https://github.com/user-attachments/assets/af3b5a12-2722-480c-8f99-a641e9f0f54f" alt="Projeto 12" width="800"/>
 
-### Porcentagem por país
-<img src="https://github.com/user-attachments/assets/78cca0d9-51ab-4abe-8068-0814c28b5e62" alt="Projeto 12" width="200"/>
+### Gráfico - Porcentagem por país
+<img src="https://github.com/user-attachments/assets/78cca0d9-51ab-4abe-8068-0814c28b5e62" alt="Projeto 12" width="800"/>
 
-### Porcentagem por país por ano
-<img src="https://github.com/user-attachments/assets/78d86112-34ab-461d-9995-304d8cb0bb67" alt="Projeto 12" width="200"/>
+### Gráfico - Porcentagem por país por ano
+<img src="https://github.com/user-attachments/assets/78d86112-34ab-461d-9995-304d8cb0bb67" alt="Projeto 12" width="800"/>
 
-### Região vs day
-<img src="https://github.com/user-attachments/assets/fd16c9e2-15e3-4cac-bcba-2296f7fe9060" alt="Projeto 12" width="200"/>
+### Gráfico - Região vs day
+<img src="https://github.com/user-attachments/assets/fd16c9e2-15e3-4cac-bcba-2296f7fe9060" alt="Projeto 12" width="800"/>
 
-### Categoria vs day
-<img src="https://github.com/user-attachments/assets/652aa73e-f713-4c13-a4ce-b62f6e1b8876" alt="Projeto 12" width="200"/>
+### Gráfico - Categoria vs day
+<img src="https://github.com/user-attachments/assets/652aa73e-f713-4c13-a4ce-b62f6e1b8876" alt="Projeto 12" width="800"/>
 
-### Região vs day vs date
-<img src="https://github.com/user-attachments/assets/5e09c645-1b36-4b41-bd9b-ee6368f819bf" alt="Projeto 12" width="200"/>
+### Gráfico - Região vs day vs date
+<img src="https://github.com/user-attachments/assets/5e09c645-1b36-4b41-bd9b-ee6368f819bf" alt="Projeto 12" width="800"/>
 
-### Categoria vs região vs day
-<img src="https://github.com/user-attachments/assets/b0ee004c-2e4d-48bc-b8b9-270f46c88895" alt="Projeto 12" width="200"/>
+### Gráfico - Categoria vs região vs day
+<img src="https://github.com/user-attachments/assets/b0ee004c-2e4d-48bc-b8b9-270f46c88895" alt="Projeto 12" width="800"/>
 
-### País vs video count
-<img src="https://github.com/user-attachments/assets/69e65e8d-c571-45b9-971c-e20eacc33f0c" alt="Projeto 12" width="200"/>
+### Gráfico - País vs video count
+<img src="https://github.com/user-attachments/assets/69e65e8d-c571-45b9-971c-e20eacc33f0c" alt="Projeto 12" width="800"/>
 
-### País vs categoria
-<img src="https://github.com/user-attachments/assets/cd5f93af-1af7-42e6-988e-19761b3b0401" alt="Projeto 12" width="200"/>
+### Tabela - País vs categoria
+<img src="https://github.com/user-attachments/assets/cd5f93af-1af7-42e6-988e-19761b3b0401" alt="Projeto 12" width="800"/>
 
-### Date vs video count
-<img src="https://github.com/user-attachments/assets/f9d80d6e-021a-4cc9-b35a-6c9b46dbba21" alt="Projeto 12" width="200"/>
+### Gráfico - Date vs video count
+<img src="https://github.com/user-attachments/assets/f9d80d6e-021a-4cc9-b35a-6c9b46dbba21" alt="Projeto 12" width="800"/>
 
-### Date vs categoria
-<img src="https://github.com/user-attachments/assets/d7e5fa0b-be1f-4066-8be1-3e763d1b02cd" alt="Projeto 12" width="200"/>
+### Tabela - Date vs categoria
+<img src="https://github.com/user-attachments/assets/d7e5fa0b-be1f-4066-8be1-3e763d1b02cd" alt="Projeto 12" width="800"/>
 
-### Date vs categoria vs país
-<img src="https://github.com/user-attachments/assets/5da379c7-4332-4713-a954-f3d3dbd9f786" alt="Projeto 12" width="200"/>
+### Tabela - Date vs categoria vs país
+<img src="https://github.com/user-attachments/assets/5da379c7-4332-4713-a954-f3d3dbd9f786" alt="Projeto 12" width="800"/>
 
 ## Aprendizados
 - Tableau: Ferramenta utilizada para construção de dashboards interativos e visualizações de dados, permitindo a análise eficiente e intuitiva de grandes volumes de dados.
 - Construção de Dashboard: Processo de criar um painel de controle interativo que consolida e organiza os dados de forma visual e acessível, facilitando a tomada de decisões.
-- Construção e Análise de Gráficos: Criação de gráficos e visualizações para representar dados de maneira clara e compreensível, além de realizar a análise desses gráficos para extrair insights e tendências.
+- Desenvolvimento e Interpretação de Gráficos: Elaboração de representações visuais para exibir dados de forma clara e acessível, além da análise dessas visualizações para identificar padrões e tendências.
 
 ## Contexto real
 - Empresas de marketing que buscam compreender as tendências de mercado, não se limitando apenas a vídeos, mas expandindo sua análise para diversos tipos de conteúdo e comportamentos do consumidor.
